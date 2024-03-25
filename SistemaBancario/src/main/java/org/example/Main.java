@@ -8,8 +8,10 @@ public class Main {
         // Adicionando algumas contas correntes
         ContaCorrente conta1 = new ContaCorrente(1, 1000, true);
         ContaCorrente conta2 = new ContaCorrente(2, 2000, true);
+
         gerContas.adicionarConta(conta1);
         gerContas.adicionarConta(conta2);
+
 
         // Realizando uma transferência entre contas
         boolean transferenciaRealizada = gerContas.transferir(1, 2, 500);
